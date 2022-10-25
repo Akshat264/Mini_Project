@@ -1,0 +1,284 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  width: 100%;
+  margin: 0;
+  overflow: hidden;
+}
+
+.container1 {
+  position: fixed;
+  position: sticky;
+}
+
+.navigation .it li > a[href] {
+  font-size: 24px;
+  text-decoration: none;
+  color: black;
+}
+
+.navigation .it li > a {
+  width: 62px;
+  height: 30px;
+  justify-items: center;
+  border-radius: 4px;
+  padding: 8px;
+  gap: 2px;
+  width: 70px;
+}
+
+.image .search {
+  display: flex;
+  position: relative;
+  margin-left: 20%;
+  width: 700px;
+  height: 40px;
+}
+
+.image .search i {
+  object-fit: cover;
+  padding: 0.4cm;
+  padding-left: 0.6cm;
+  border-right: solid black 2px;
+  z-index: 2;
+  margin-left: 19%;
+  height: 16px;
+}
+
+.search input {
+  position: absolute;
+  margin-left: 20%;
+  padding-left: 70px;
+  width: 450px;
+  height: 40px;
+}
+
+.navigation .it li > a:hover {
+  color: rgb(6, 159, 230);
+  background-image: linear-gradient(to right, gold, white, gold);
+}
+
+.navigation {
+  display: flex;
+  height: 80px;
+  margin: 0;
+}
+
+.navigation .it {
+  list-style: none;
+  display: flex;
+  gap: 2.5rem;
+  background-image: linear-gradient(to right, rgb(220, 185, 8), white);
+  margin: 0;
+  padding: 1cm;
+  align-items: center;
+}
+
+.name {
+  display: flex;
+  background-image: linear-gradient(to right, white, rgb(220, 185, 8));
+  width: 60%;
+  height: 80px;
+  justify-content: right;
+  align-items: center;
+  padding-right: 52px;
+  gap: 1rem;
+  margin: 0;
+}
+
+.name .Hotelo {
+  font-size: 48px;
+  color: rgb(6, 159, 230);
+  font-weight: 900;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-style: italic;
+}
+
+.name img {
+  height: 100px;
+  width: 100px;
+}
+
+.container1 {
+  position: relative;
+  display: flex;
+  margin: 0;
+}
+
+.main {
+  margin: 0;
+}
+
+.section1 {
+  margin: 0;
+  background: rgba(0, 0, 0, 0.3)
+    url("https://www.ledvance.com/25_Invisible_ThinkStock/4086408/image-thumb__4086408__image_gallery_auto_0d80b7b3ab3759e6de184a9f0ba940cb/asset-4086408_Luxury_Hotel_Room_Interior_-_XXXL.jpg");
+  background-blend-mode: darken;
+  height: 470px;
+}
+
+.section1 .image img {
+  opacity: 0.7 black;
+  position: absolute;
+  margin-top: 0;
+  height: -20vh;
+  z-index: -1;
+}
+
+.section1 .image {
+  margin: 0;
+}
+
+.section1 .image .welcome {
+  padding-top: 3.2cm;
+  font-size: 64px;
+  font-weight: 900;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-align: center;
+  color: goldenrod;
+}
+
+.section1 .image .wel2 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-style: italic;
+  color: goldenrod;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 900;
+  margin-top: 5px;
+  margin-bottom: 120px;
+}
+
+.content {
+  height: 70px;
+  background-image: linear-gradient(
+    to right,
+    rgb(220, 185, 8),
+    white,
+    rgb(220, 185, 8)
+  );
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+.content .places {
+  font-size: 39px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  text-decoration: underline;
+  margin-top: 0;
+}
+
+.section2 .imgs img {
+  z-index: -1;
+  position: absolute;
+  border-radius: 10px;
+
+  box-shadow: 8px 8px 8px grey;
+}
+
+.container2 {
+  display: inline-flex;
+  padding-right: 0.3cm;
+  padding-left: 0.3cm;
+  margin-bottom: 225px;
+}
+
+.container2 .imgs .placename {
+  padding-left: 3cm;
+  font-size: 24px;
+}
+
+.imgs .photo {
+  margin-right: 438px;
+  border-left: solid black 3px;
+}
+
+.imgs {
+  justify-content: center;
+}
+
+.imgs .photo :first-child {
+  margin-left: 25px;
+}
+
+.container3 {
+  display: inline-flex;
+  padding-right: 0.3cm;
+  padding-left: 0.3cm;
+  margin-bottom: 225px;
+}
+
+.container3 .imgs .placename {
+  padding-left: 3cm;
+  font-size: 24px;
+}
+
+a[href] .imgs .placename {
+  color: black;
+  border-radius: 5cm;
+}
+
+a:hover .imgs .placename {
+  color: rgb(129, 6, 230);
+}
+
+a .imgs .placename {
+  text-decoration: none;
+}
+
+.about {
+  padding: 0.5cm;
+  margin-left: 1.5cm;
+  display: flexbox;
+  justify-content: center;
+  width: 26%;
+  height: fit-content;
+  border: solid goldenrod 3px;
+  border-radius: 10px;
+  font-size: 24px;
+  box-shadow: 8px 8px 8px 8px grey;
+}
+
+.about2 {
+  display: flexbox;
+  width: 55%;
+  height: fit-content;
+  margin-left: 1cm;
+  border: solid goldenrod 3px;
+  border-radius: 10px;
+  padding: 1cm;
+  font-size: 24px;
+  box-shadow: 8px 8px 8px 8px grey;
+}
+
+.about2 h1 {
+  margin-top: 18px;
+}
+
+.container4 {
+  display: inline-flex;
+}
+
+.about3 {
+  height: fit-content;
+  margin-left: 57px;
+  margin-right: 40px;
+  width: fit-content;
+  border: solid goldenrod 3px;
+  border-radius: 10px;
+  margin-top: 1cm;
+  margin-bottom: 1cm;
+  font-size: 24px;
+  padding: 1cm;
+  box-shadow: 8px 8px 8px 8px grey;
+}
+
+.about3 h1 {
+  margin-top: 0px;
+}
